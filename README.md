@@ -32,25 +32,27 @@ Feel free to report issues through my contact info or contribute to the project.
 
 ## Installation
 
-1. Extract the .zip
+1. Download the project in the releases tab of the GitHub repository
+
+2. Extract the .zip
 
 <img width="695" height="438" alt="Screenshot 2025-07-29 212938" src="https://github.com/user-attachments/assets/038debad-184a-4b86-af00-a851020f661e" />
 
-2. Start *Winpython64-3.12.4.1.exe* in *PlaylistRipper/* and extract it into *PlaylistRipper\PlaylistRipper\Data\python*
+3. Start *Winpython64-3.12.4.1.exe* in *PlaylistRipper/* and extract it into *PlaylistRipper\PlaylistRipper\Data\python*
 
 <img width="2047" height="613" alt="Screenshot 2025-07-18 193610" src="https://github.com/user-attachments/assets/1ec6deeb-508e-4b2e-ae91-897fffbf1086" />
 
-3. Create Ngrok account for free [here](https://dashboard.ngrok.com/signup) and [reserve a domain](https://ngrok.com/blog-post/free-static-domains-ngrok-users)
+4. Create Ngrok account for free [here](https://dashboard.ngrok.com/signup) and [reserve a domain](https://ngrok.com/blog-post/free-static-domains-ngrok-users)
 
 <img width="905" height="1073" alt="Screenshot 2025-07-18 193306" src="https://github.com/user-attachments/assets/d9ee4c37-2dac-454b-b4bd-34fe41a6f2b3" />
 
-4. Create a Spotify Developers account for free [here](https://developer.spotify.com/dashboard) and create an app. Then put in your ngrok redirect domain name in as **Https://(your ngrok domain.app)/callback** and turn on web api and web playback sdk (may not be needed, but I already have them on and it worked for me)
+5. Create a Spotify Developers account for free [here](https://developer.spotify.com/dashboard) and create an app. Then put in your ngrok redirect domain name in as **Https://(your ngrok domain.app)/callback** and turn on web api and web playback sdk (may not be needed, but I already have them on and it worked for me)
 
-5. open *PlaylistRipper\config.json* (open in Notepad, VS Code, or other) and input your Spotify client ID and client secret ID (both in the Spotify dev app), then put in the redirect URL **https://(your ngrok domain.app)/callback**, your authtoken [here](https://dashboard.ngrok.com/get-started/your-authtoken), and your ngrok domain [here](https://dashboard.ngrok.com/domains)
+6. open *PlaylistRipper\config.json* (open in Notepad, VS Code, or other) and input your Spotify client ID and client secret ID (both in the Spotify dev app), then put in the redirect URL **https://(your ngrok domain.app)/callback**, your authtoken [here](https://dashboard.ngrok.com/get-started/your-authtoken), and your ngrok domain [here](https://dashboard.ngrok.com/domains)
 
-6. run the *Playlist_Ripper.exe*
+7. run the *Playlist_Ripper.exe*
 
-7. It will take about a minute or so to open up the GUI. I have had various boot timings depending on internet speeds and the number of songs/playlists. It is verified on Windows 11 x64, Unknown as to reliability on other .exe supporting Operating Systems
+8. It will take about a minute or so to open up the GUI. I have had various boot timings depending on internet speeds and the number of songs/playlists. It is verified on Windows 11 x64, Unknown as to reliability on other .exe supporting Operating Systems
 
 Note: in total, will take up 5.68GB (6,103,691,093 bytes) as of 7/30/25
 
